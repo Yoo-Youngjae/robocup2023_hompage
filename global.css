@@ -38,7 +38,7 @@ body {
 }
 #Top h1{
 	font-family: "Trebuchet MS", Arial, Verdana;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #1690fc;
 	font-style: normal;
@@ -191,7 +191,7 @@ div#MainText {
 }
 div#MainText h1{
 	font-family: "Trebuchet MS", Verdana, Arial;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #005787;
 	margin-top: 10px;
@@ -232,7 +232,7 @@ div#MainText-left ul li a{
 	color: #FC7316;
 	text-decoration: none;
 	font-family: "Trebuchet MS";
-	font-size: 14px;
+	font-size: 12px;
 	padding-left: 10px;
 	background-color: #EFEFEF;
 	margin: 1px;
@@ -287,4 +287,72 @@ div#Footer a{
 div#Footer a:hover{
 	color: #005787;
 	text-decoration: none;
+}
+
+/*------------------------------------------------------------*
+**  Publications
+**------------------------------------------------------------*/
+div#session{
+	width: 98%;
+	float:left;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+div#btn{
+	margin-top: 10px;
+	float:left;
+	align-content: center;
+}
+div#publish_left{
+	width:550px;
+	float:left;
+	margin-right: 5px;
+}
+div#publish_right{
+	width:220px;
+	height:125px;
+	float:left;
+	margin-left: 5pt;
+}
+div#abstract{
+	width: fit-content;
+	float: left;
+	background-color: #cccccc83;
+	border-radius: 10px;
+	border: 1px solid #cccccc83;
+}
+.w-btn-outline {
+    position: relative;
+    padding: 6px 90px;
+    border-radius: 10px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+	text-align: center;
+    font-weight: 600;
+    transition: 0.25s;
+	border: 2px solid #1690fc;
+    color: #1690fc;
+	background-color: #FFFFFF;
+}
+
+.w-btn-outline:hover {
+    background-color: #1690fc;
+    color: #ffffff;
+}
+
+.w-small-btn-outline {
+	padding: 1px 4px;
+    border-radius: 5px;
+    font-family: "paybooc-Light", sans-serif;
+    text-decoration: none;
+	text-align: center;
+    font-weight: 550;
+	border: 1px solid #1690fc;
+    color: #1690fc;
+	background-color: #FFFFFF;
+}
+.w-small-btn-outline:hover {
+    background-color: #1690fc;
+    color: #ffffff;
 }
