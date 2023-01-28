@@ -89,7 +89,8 @@ div#nav ul li
 {
 	list-style: none;
 	display: block;
-	width: 160px;
+	/* width: 160px; */
+	width: 132px;
 	float: left;
 	text-align: center;
 	line-height: 25px;
@@ -115,7 +116,8 @@ div#nav ul li a
 
 div#nav ul li.last
 {
-	width: 155px;
+	/* width: 155px; */
+	width: 134px;
 	
 }
 
